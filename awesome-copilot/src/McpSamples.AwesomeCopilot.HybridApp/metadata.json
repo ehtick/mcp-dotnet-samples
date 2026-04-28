@@ -51,6 +51,21 @@
       "name": "Agent Governance Reviewer"
     },
     {
+      "filename": "ai-team-dev.agent.md",
+      "name": "ai-team-dev",
+      "description": "AI development team agent (Nova, Sage, Milo). Use when: building features, writing application code, fixing bugs, implementing UI components, creating APIs, styling with CSS, writing database queries, or executing sprint plans. The team switches between frontend, backend, and design roles as needed."
+    },
+    {
+      "filename": "ai-team-producer.agent.md",
+      "name": "ai-team-producer",
+      "description": "AI team producer agent (Remy). Use when: planning sprints, creating PROJECT_BRIEF.md, triaging bugs, merging PRs, coordinating between dev and QA teams, filing GitHub Issues, writing sprint plans, running brainstorms, or recovering project context. NEVER writes application code."
+    },
+    {
+      "filename": "ai-team-qa.agent.md",
+      "name": "ai-team-qa",
+      "description": "AI QA engineer agent (Ivy). Use when: testing features, running E2E tests, playtesting, filing bug reports, writing test automation, creating QA sign-off documents, or verifying bug fixes. Reports bugs as GitHub Issues."
+    },
+    {
       "filename": "amplitude-experiment-implementation.agent.md",
       "name": "Amplitude Experiment Implementation",
       "description": "This custom agent uses Amplitude\u0027s\u00A0MCP tools to deploy new experiments inside of Amplitude, enabling seamless variant testing capabilities and rollout of product features."
@@ -1843,6 +1858,11 @@
       "filename": "ai-prompt-engineering-safety-review/SKILL.md",
       "name": "ai-prompt-engineering-safety-review",
       "description": "Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content."
+    },
+    {
+      "filename": "ai-team-orchestration/SKILL.md",
+      "name": "ai-team-orchestration",
+      "description": "Bootstrap and run a multi-agent AI development team. Use when: starting a new software project with AI agents, setting up parallel dev/QA teams, creating sprint plans, writing brainstorm prompts with distinct agent voices, recovering a project workflow, or planning sprints."
     },
     {
       "filename": "appinsights-instrumentation/SKILL.md",
