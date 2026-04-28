@@ -868,6 +868,12 @@
       "description": "Implement Visualforce pages and controllers following Salesforce MVC architecture and best practices."
     },
     {
+      "filename": "sast-sca-security-analyzer.agent.md",
+      "description": "Use when: performing SAST (Static Application Security Testing), SCA (Software Composition Analysis), scanning source code or binaries for security flaws, auditing third-party dependency vulnerabilities, checking policy compliance, generating structured security reports, identifying CWE-mapped flaws with file/line precision, reviewing open-source license risk, or producing CI/CD-gate security findings.",
+      "name": "SAST/SCA Security Analyzer",
+      "argument-hint": "Describe what to scan (e.g. \u0027scan src/ for SAST flaws\u0027, \u0027SCA audit of package.json\u0027, \u0027full SAST\u002BSCA on the authentication module\u0027, \u0027policy compliance check for PCI-DSS\u0027)"
+    },
+    {
       "filename": "scientific-paper-research.agent.md",
       "name": "Scientific Paper Research",
       "description": "Research agent that searches scientific papers and retrieves structured experimental data from full-text studies using the BGPT MCP server."
@@ -1885,6 +1891,11 @@
       "description": "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation"
     },
     {
+      "filename": "audit-integrity/SKILL.md",
+      "name": "audit-integrity",
+      "description": "Shared audit integrity framework for all AppSec agents \u2014 enforces output quality, intellectual honesty, and continuous improvement through anti-rationalization guards, self-critique loops, retry protocols, non-negotiable behaviors, self-reflection quality gates (1-10 scoring, \u22658 threshold), and a self-learning system with lesson/memory governance for security analysis agents."
+    },
+    {
       "filename": "automate-this/SKILL.md",
       "name": "automate-this",
       "description": "Analyze a screen recording of a manual process and produce targeted, working automation scripts. Extracts frames and audio narration from video files, reconstructs the step-by-step workflow, and proposes automation at multiple complexity levels using tools already installed on the user machine."
@@ -1943,6 +1954,11 @@
       "filename": "azure-static-web-apps/SKILL.md",
       "name": "azure-static-web-apps",
       "description": "Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI. Use when deploying static sites to Azure, setting up SWA local development, configuring staticwebapp.config.json, adding Azure Functions APIs to SWA, or setting up GitHub Actions CI/CD for Static Web Apps."
+    },
+    {
+      "filename": "batch-files/SKILL.md",
+      "name": "batch-files",
+      "description": "Expert-level Windows batch file (.bat/.cmd) skill for writing, debugging, and maintaining CMD scripts. Use when asked to \u0022create a batch file\u0022, \u0022write a .bat script\u0022, \u0022automate a Windows task\u0022, \u0022CMD scripting\u0022, \u0022batch automation\u0022, \u0022scheduled task script\u0022, \u0022Windows shell script\u0022, or when working with .bat/.cmd files in the workspace. Covers cmd.exe syntax, environment variables, control flow, string processing, error handling, and integration with system tools."
     },
     {
       "filename": "bigquery-pipeline-audit/SKILL.md",
@@ -2312,7 +2328,7 @@
     {
       "filename": "eval-driven-dev/SKILL.md",
       "name": "eval-driven-dev",
-      "description": "Set up eval-based QA for Python LLM applications: instrument the app, build golden datasets, write and run eval tests, and iterate on failures. ALWAYS USE THIS SKILL when the user asks to set up QA, add tests, add evals, evaluate, benchmark, fix wrong behaviors, improve quality, or do quality assurance for any Python project that calls an LLM model.\n"
+      "description": "Improve AI application with evaluation-driven development. Define eval criteria, instrument the application, build golden datasets, observe and evaluate application runs, analyze results, and produce a concrete action plan for improvements. ALWAYS USE THIS SKILL when the user asks to set up QA, add tests, add evals, evaluate, benchmark, fix wrong behaviors, improve quality, or do quality assurance for any Python project that calls an LLM model.\n"
     },
     {
       "filename": "exam-ready/SKILL.md",
@@ -2685,6 +2701,11 @@
       "description": "Migrates Oracle PL/SQL stored procedures to PostgreSQL PL/pgSQL. Translates Oracle-specific syntax, preserves method signatures and type-anchored parameters, leverages orafce where appropriate, and applies COLLATE \u0022C\u0022 for Oracle-compatible text sorting. Use when converting Oracle stored procedures or functions to PostgreSQL equivalents during a database migration."
     },
     {
+      "filename": "minecraft-plugin-development/SKILL.md",
+      "name": "minecraft-plugin-development",
+      "description": "Use this skill when building or modifying Minecraft server plugins for Paper, Spigot, or Bukkit, including plugin.yml setup, commands, listeners, schedulers, player state, team or arena systems, persistent progression, economy or profile data, configuration files, Adventure text, and version-safe API usage. Trigger for requests like \u0022build a Minecraft plugin\u0022, \u0022add a Paper command\u0022, \u0022fix a Bukkit listener\u0022, \u0022create plugin.yml\u0022, \u0022implement a minigame mechanic\u0022, \u0022add a perk or quest system\u0022, or \u0022debug server plugin behavior\u0022."
+    },
+    {
       "filename": "mkdocs-translations/SKILL.md",
       "name": "mkdocs-translations",
       "description": "Generate a language translation for a mkdocs documentation stack."
@@ -3040,6 +3061,11 @@
       "description": "Generate a comprehensive repository summary and narrative story from commit history"
     },
     {
+      "filename": "resemble-detect/SKILL.md",
+      "name": "resemble-detect",
+      "description": "Deepfake detection and media safety \u2014 detect AI-generated audio, images, video, and text, trace synthesis sources, apply watermarks, verify speaker identity, and analyze media intelligence using Resemble AI"
+    },
+    {
       "filename": "review-and-refactor/SKILL.md",
       "name": "review-and-refactor",
       "description": "Review and refactor code in your project according to defined instructions"
@@ -3350,6 +3376,11 @@
       "filename": "relevance-summary.md",
       "name": "Relevance Summary",
       "description": "Manually triggered workflow that summarizes all open issues and PRs with a /relevance-check response into a single issue"
+    },
+    {
+      "filename": "weekly-comment-sync.md",
+      "name": "Weekly Comment Sync",
+      "description": "Weekly workflow that finds stale code comments or README snippets, makes text-only synchronization updates, and opens a draft pull request when changes are needed."
     }
   ]
 }
