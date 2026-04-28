@@ -159,6 +159,11 @@
       "description": "Specialized agent for identifying, analyzing, and providing remediation guidance for code quality issues using CAST Imaging"
     },
     {
+      "filename": "caveman-mode.agent.md",
+      "description": "Terse, low-token responses. Minimal words, no fluff. Full capabilities preserved. Use when: optimize token usage, low-token mode, concise output, caveman mode, reduce verbosity, token-efficient, brief responses.",
+      "name": "Caveman Mode"
+    },
+    {
       "filename": "centos-linux-expert.agent.md",
       "name": "CentOS Linux Expert",
       "description": "CentOS (Stream/Legacy) Linux specialist focused on RHEL-compatible administration, yum/dnf workflows, and enterprise hardening."
@@ -999,6 +1004,11 @@
       "description": "Elite technical content editor and curriculum architect for evaluating technical training materials, documentation, and educational content. Reviews for technical accuracy, pedagogical excellence, content flow, code validation, and ensures A-grade quality standards."
     },
     {
+      "filename": "terminal-helper.agent.md",
+      "description": "Fast terminal syntax and command helper for PowerShell and Bash",
+      "name": "terminal-helper"
+    },
+    {
       "filename": "terraform-azure-implement.agent.md",
       "description": "Act as an Azure Terraform Infrastructure as Code coding specialist that creates and reviews Terraform for Azure resources.",
       "name": "Azure Terraform IaC Implementation Specialist"
@@ -1161,6 +1171,10 @@
     {
       "filename": "blazor.instructions.md",
       "description": "Blazor component and application patterns"
+    },
+    {
+      "filename": "caveman-mode.instructions.md",
+      "description": "Terse, low-token responses. Minimal words, no fluff. Full capabilities preserved. Use when: optimize token usage, low-token mode, concise output, caveman mode, reduce verbosity, token-efficient, brief responses."
     },
     {
       "filename": "centos-linux.instructions.md",
@@ -1791,6 +1805,11 @@
       "description": "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided."
     },
     {
+      "filename": "adobe-illustrator-scripting/SKILL.md",
+      "name": "adobe-illustrator-scripting",
+      "description": "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX). Use when creating or modifying scripts that manipulate documents, layers, paths, text frames, colors, symbols, artboards, or any Illustrator DOM objects. Covers the complete JavaScript object model, coordinate system, measurement units, export workflows, and scripting best practices."
+    },
+    {
       "filename": "agent-governance/SKILL.md",
       "name": "agent-governance",
       "description": "Patterns and techniques for adding governance, safety, and trust controls to AI agent systems. Use this skill when:\n- Building AI agents that call external tools (APIs, databases, file systems)\n- Implementing policy-based access controls for agent tool usage\n- Adding semantic intent classification to detect dangerous prompts\n- Creating trust scoring systems for multi-agent workflows\n- Building audit trails for agent actions and decisions\n- Enforcing rate limits, content filters, or tool restrictions on agents\n- Working with any agent framework (PydanticAI, CrewAI, OpenAI Agents, LangChain, AutoGen)"
@@ -2226,6 +2245,11 @@
       "description": "Prepare for tomorrow\u0027s meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open tasks and workspace context, classifies meetings, detects conflicts and day-fit issues, finds learning and deep-work slots, and generates a structured HTML prep file with productivity recommendations."
     },
     {
+      "filename": "data-breach-blast-radius/SKILL.md",
+      "name": "data-breach-blast-radius",
+      "description": "Pre-breach impact analysis: inventories sensitive data (PII, PHI, PCI-DSS, credentials), traces data flows, scores exposure vectors, and produces a regulatory blast radius report with fine ranges sourced verbatim from GDPR Art. 83, CCPA \u00A7 1798.155(a), and HIPAA 45 CFR \u00A7 160.404. Cost benchmarks from IBM Cost of a Data Breach Report (annually updated). All citations in references/SOURCES.md for verification. Use when asked: \u0022assess breach impact\u0022, \u0022what data could be exposed\u0022, \u0022calculate blast radius\u0022, \u0022data exposure analysis\u0022, \u0022how bad would a breach be\u0022, \u0022quantify data risk\u0022, \u0022sensitive data inventory\u0022, \u0022data flow security audit\u0022, \u0022pre-breach assessment\u0022, \u0022worst-case breach scenario\u0022, \u0022breach readiness\u0022, \u0022data risk report\u0022, \u0022/data-breach-blast-radius\u0022. For any stack handling user data, health records, or financial information. Output labels law-sourced figures (exact) vs heuristic estimates (planning only). Does not replace legal counsel."
+    },
+    {
       "filename": "datanalysis-credit-risk/SKILL.md",
       "name": "datanalysis-credit-risk",
       "description": "Credit risk data cleaning and variable screening pipeline for pre-loan modeling. Use when working with raw credit data that needs quality assessment,  missing value analysis, or variable selection before modeling. it covers data loading and formatting, abnormal period filtering, missing rate calculation, high-missing variable removal,low-IV variable filtering, high-PSI variable removal, Null Importance denoising, high-correlation variable removal, and cleaning report generation. Applicable scenarios arecredit risk data cleaning, variable screening, pre-loan modeling preprocessing."
@@ -2534,6 +2558,11 @@
       "filename": "image-manipulation-image-magick/SKILL.md",
       "name": "image-manipulation-image-magick",
       "description": "Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing, and retrieving image metadata. Use when working with images, creating thumbnails, resizing wallpapers, or performing batch image operations."
+    },
+    {
+      "filename": "impediment-prioritization/SKILL.md",
+      "name": "impediment-prioritization",
+      "description": "Ranks any list of impediments and their countermeasures using a value-stream scoring model (ROI, Cost to Implement, Ease of Deployment, Risk Factor) and a fixed prioritization formula. Use when someone asks to prioritize, rank, sequence, or triage impediments, countermeasures, remediation items, risks, findings, gaps, action items, or backlog entries; or mentions value-stream prioritization, A3 / lean countermeasure ranking, ROI vs. effort scoring, or building a remediation / improvement backlog. Works with GHQR findings, audit results, retrospective action items, risk registers, architecture review gaps, or any free-form \u0060{impediment, countermeasure}\u0060 list."
     },
     {
       "filename": "import-infrastructure-as-code/SKILL.md",
@@ -3284,6 +3313,11 @@
       "filename": "update-specification/SKILL.md",
       "name": "update-specification",
       "description": "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code."
+    },
+    {
+      "filename": "vardoger-analyze/SKILL.md",
+      "name": "vardoger-analyze",
+      "description": "Use when the user asks to personalize the GitHub Copilot CLI assistant, adapt Copilot to their style, use vardoger, or analyze their Copilot CLI conversation history. Reads the local session directory at \u0060~/.copilot/session-state/\u0060, extracts recurring preferences and conventions, and writes a fenced personalization block into \u0060~/.copilot/copilot-instructions.md\u0060. Runs entirely on the user\u0027s machine via the local \u0060vardoger\u0060 CLI (\u0060pipx install vardoger\u0060); no network calls and no uploads. Triggers: \u0027personalize my copilot\u0027, \u0027analyze my copilot history\u0027, \u0027tailor copilot to me\u0027, \u0027run vardoger\u0027, \u0027update my copilot instructions from history\u0027, \u0027make copilot learn my style\u0027."
     },
     {
       "filename": "vscode-ext-commands/SKILL.md",
