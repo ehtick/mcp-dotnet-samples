@@ -134,6 +134,11 @@
       "name": "Azure SaaS Architect mode instructions"
     },
     {
+      "filename": "azure-smart-city-iot-architect.agent.md",
+      "name": "Azure Smart City IoT Architect",
+      "description": "Design Azure IoT and Smart City architectures with clear platform engineering reasoning, requiring mandatory review of Azure IoT Edge documentation before recommending edge solutions."
+    },
+    {
       "filename": "azure-verified-modules-bicep.agent.md",
       "description": "Create, update, or review Azure IaC in Bicep using Azure Verified Modules (AVM).",
       "name": "Azure AVM Bicep mode"
@@ -1174,6 +1179,10 @@
       "description": "TypeScript patterns for Azure Functions"
     },
     {
+      "filename": "azure-iot-edge-architecture.instructions.md",
+      "description": "Require Azure IoT Edge documentation review before proposing edge IoT architectures or Azure implementation guidance."
+    },
+    {
       "filename": "azure-logic-apps-power-automate.instructions.md",
       "description": "Guidelines for developing Azure Logic Apps and Power Automate workflows with best practices for Workflow Definition Language (WDL), integration patterns, and enterprise automation"
     },
@@ -1885,6 +1894,11 @@
       "description": "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development."
     },
     {
+      "filename": "arduino-azure-iot-edge-integration/SKILL.md",
+      "name": "arduino-azure-iot-edge-integration",
+      "description": "Design and implement Arduino integration with Azure IoT Hub and IoT Edge, including secure provisioning, resilient telemetry, command handling, and production guardrails."
+    },
+    {
       "filename": "arize-ai-provider-integration/SKILL.md",
       "name": "arize-ai-provider-integration",
       "description": "INVOKE THIS SKILL when creating, reading, updating, or deleting Arize AI integrations. Covers listing integrations, creating integrations for any supported LLM provider (OpenAI, Anthropic, Azure OpenAI, AWS Bedrock, Vertex AI, Gemini, NVIDIA NIM, custom), updating credentials or metadata, and deleting integrations using the ax CLI."
@@ -2000,6 +2014,11 @@
       "description": "When user is asking for guidance for which role to assign to an identity given desired permissions, this agent helps them understand the role that will meet the requirements with least privilege access and how to apply that role."
     },
     {
+      "filename": "azure-smart-city-iot-solution-builder/SKILL.md",
+      "name": "azure-smart-city-iot-solution-builder",
+      "description": "Design and plan end-to-end Azure IoT and Smart City solutions: requirements, architecture, security, operations, cost, and a phased delivery plan with concrete implementation artifacts."
+    },
+    {
       "filename": "azure-static-web-apps/SKILL.md",
       "name": "azure-static-web-apps",
       "description": "Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI. Use when deploying static sites to Azure, setting up SWA local development, configuring staticwebapp.config.json, adding Azure Functions APIs to SWA, or setting up GitHub Actions CI/CD for Static Web Apps."
@@ -2018,6 +2037,12 @@
       "filename": "boost-prompt/SKILL.md",
       "name": "boost-prompt",
       "description": "Interactive prompt refinement workflow: interrogates scope, deliverables, constraints; copies final markdown to clipboard; never writes code. Requires the Joyride extension."
+    },
+    {
+      "filename": "brag-sheet/SKILL.md",
+      "name": "brag-sheet",
+      "description": "Turn vague \u0022what did I do?\u0022 into evidence-backed impact statements for performance reviews, self-reviews, promotion packets, and weekly updates. Uniquely mines Copilot CLI session logs to reconstruct forgotten work, plus git commits and GitHub PRs. Enforces a 3-part impact contract (action \u2192 result \u2192 evidence). Works standalone with zero dependencies. Trigger for: \u0022brag\u0022, \u0022log work\u0022, \u0022what did I do\u0022, \u0022backfill my work history\u0022, \u0022performance review\u0022, \u0022self-review\u0022, \u0022self assessment\u0022, \u0022write impact statement\u0022, \u0022review prep\u0022, \u0022promo packet\u0022, \u0022promotion case\u0022, \u0022weekly update\u0022, \u0022status report\u0022, \u0022accomplishments\u0022, \u0022what did I ship\u0022, \u0022I forgot to log my work\u0022, \u0022summarize my work\u0022, \u0022track my wins\u0022, \u0022what should I highlight\u0022, \u0022end of half\u0022, \u0022career growth\u0022, \u0022work journal\u0022, or any request to document, summarize, or organize work accomplishments.\n",
+      "argument-hint": "Optional: time range (\u0022last 2 weeks\u0022, \u0022this half\u0022), category (\u0022infrastructure\u0022), \u0022backfill\u0022, or \u0022review prep\u0022"
     },
     {
       "filename": "breakdown-epic-arch/SKILL.md",
@@ -2979,6 +3004,11 @@
       "filename": "pytest-coverage/SKILL.md",
       "name": "pytest-coverage",
       "description": "Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%."
+    },
+    {
+      "filename": "python-azure-iot-edge-modules/SKILL.md",
+      "name": "python-azure-iot-edge-modules",
+      "description": "Build and operate Python Azure IoT Edge modules with robust messaging, deployment manifests, observability, and production readiness checks."
     },
     {
       "filename": "python-mcp-server-generator/SKILL.md",
