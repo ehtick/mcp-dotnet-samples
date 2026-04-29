@@ -101,6 +101,11 @@
       "name": "Atlassian Requirements to Jira"
     },
     {
+      "filename": "aws-cloud-expert.agent.md",
+      "name": "aws-cloud-expert",
+      "description": "AWS Cloud Expert provides deep, hands-on guidance for designing, building, and operating AWS workloads. Covers the full AWS ecosystem \u2014 serverless, containers, databases, networking, IaC, security, and cost optimization \u2014 grounded in the AWS Well-Architected Framework."
+    },
+    {
       "filename": "azure-iac-exporter.agent.md",
       "name": "azure-iac-exporter",
       "description": "Export existing Azure resources to Infrastructure as Code templates via Azure Resource Graph analysis, Azure Resource Manager API calls, and azure-iac-generator integration. Use this skill when the user asks to export, convert, migrate, or extract existing Azure resources to IaC templates (Bicep, ARM Templates, Terraform, Pulumi).",
@@ -436,13 +441,13 @@
       "filename": "gem-planner.agent.md",
       "description": "DAG-based execution plans \u2014 task decomposition, wave scheduling, risk analysis.",
       "name": "gem-planner",
-      "argument-hint": "Enter plan_id, objective, complexity (simple|medium|complex), and task_clarifications."
+      "argument-hint": "Enter plan_id, objective, and task_clarifications."
     },
     {
       "filename": "gem-researcher.agent.md",
       "description": "Codebase exploration \u2014 patterns, dependencies, architecture discovery.",
       "name": "gem-researcher",
-      "argument-hint": "Enter plan_id, objective, focus_area (optional), complexity (simple|medium|complex), and task_clarifications array."
+      "argument-hint": "Enter plan_id, objective, focus_area (optional), and task_clarifications array."
     },
     {
       "filename": "gem-reviewer.agent.md",
