@@ -511,6 +511,11 @@
       "name": "Kotlin MCP Server Development Expert"
     },
     {
+      "filename": "kubestellar-console.agent.md",
+      "name": "KubeStellar Console",
+      "description": "Kubernetes operations expert for KubeStellar Console \u2014 helps you set up the console, configure kc-agent (MCP server), connect clusters, deploy workloads, and query live Kubernetes data via AI chat."
+    },
+    {
       "filename": "kusto-assistant.agent.md",
       "description": "Expert KQL assistant for live Azure Data Explorer analysis via Azure MCP server",
       "name": "Kusto Assistant"
@@ -610,6 +615,11 @@
       "filename": "neon-optimization-analyzer.agent.md",
       "name": "Neon Performance Analyzer",
       "description": "Identify and fix slow Postgres queries automatically using Neon\u0027s branching workflow. Analyzes execution plans, tests optimizations in isolated database branches, and provides clear before/after performance metrics with actionable code fixes."
+    },
+    {
+      "filename": "new-relic-incident-response.agent.md",
+      "name": "New Relic Incident Response Agent",
+      "description": "Identify and fix production issues by correlating New Relic observability data with code changes. Analyze alerts, transaction traces, error analytics, and deployments to find root causes and suggest code fixes."
     },
     {
       "filename": "nuxt-expert.agent.md",
@@ -1421,6 +1431,10 @@
       "description": "Instructions for writing Go code following idiomatic Go practices and community standards"
     },
     {
+      "filename": "hooks.instructions.md",
+      "description": "Portable guidance for authoring safe, fast, and clear hooks and reusable hook examples"
+    },
+    {
       "filename": "html-css-style-color-guide.instructions.md",
       "description": "Color usage guidelines and styling rules for HTML elements to ensure accessible, professional designs."
     },
@@ -1872,6 +1886,11 @@
       "filename": "ai-prompt-engineering-safety-review/SKILL.md",
       "name": "ai-prompt-engineering-safety-review",
       "description": "Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content."
+    },
+    {
+      "filename": "ai-ready/SKILL.md",
+      "name": "ai-ready",
+      "description": "Make any repo AI-ready \u2014 analyzes your codebase and generates AGENTS.md, copilot-instructions.md, CI workflows, issue templates, and more. Mines your PR review patterns and creates files customized to your stack. USE THIS SKILL when the user asks to \u0022make this repo ai-ready\u0022, \u0022set up AI config\u0022, or \u0022prepare this repo for AI contributions\u0022."
     },
     {
       "filename": "ai-team-orchestration/SKILL.md",
@@ -2467,12 +2486,12 @@
     {
       "filename": "flowstudio-power-automate-mcp/SKILL.md",
       "name": "flowstudio-power-automate-mcp",
-      "description": "Give your AI agent the same visibility you have in the Power Automate portal \u2014 plus a bit more. The Graph API only returns top-level run status. Flow Studio MCP exposes action-level inputs, outputs, loop iterations, and nested child flow failures. Use when asked to: list flows, read a flow definition, check run history, inspect action outputs, resubmit a run, cancel a running flow, view connections, get a trigger URL, validate a definition, monitor flow health, or any task that requires talking to the Power Automate API through an MCP tool. Also use for Power Platform environment discovery and connection management. Requires a FlowStudio MCP subscription or compatible server \u2014 see https://mcp.flowstudio.app"
+      "description": "Foundation skill for Power Automate via FlowStudio MCP \u2014 auth setup, the reusable MCP helper (Python \u002B Node.js), tool discovery via \u0060list_skills\u0060 / \u0060tool_search\u0060, and oversized-response handling. Load this skill first when connecting an agent to Power Automate. For specialized workflows, load \u0060power-automate-build\u0060, \u0060power-automate-debug\u0060, \u0060power-automate-monitoring\u0060 (Pro\u002B), or \u0060power-automate-governance\u0060 (Pro\u002B) \u2014 each contains the workflow narrative, this skill provides the plumbing they all rely on. Requires a FlowStudio MCP subscription or compatible server \u2014 see https://mcp.flowstudio.app"
     },
     {
       "filename": "flowstudio-power-automate-monitoring/SKILL.md",
       "name": "flowstudio-power-automate-monitoring",
-      "description": "Monitor Power Automate flow health, track failure rates, and inventory tenant assets using the FlowStudio MCP cached store. The live API only returns top-level run status. Store tools surface aggregated stats, per-run failure details with remediation hints, maker activity, and Power Apps inventory \u2014 all from a fast cache with no rate-limit pressure on the PA API. Load this skill when asked to: check flow health, find failing flows, get failure rates, review error trends, list all flows with monitoring enabled, check who built a flow, find inactive makers, inventory Power Apps, see environment or connection counts, get a flow summary, or any tenant-wide health overview. Requires a FlowStudio for Teams or MCP Pro\u002B subscription \u2014 see https://mcp.flowstudio.app"
+      "description": "**Pro\u002B subscription required.** Tenant-wide Power Automate flow health monitoring, failure rate analytics, and asset inventory using the FlowStudio MCP cached store. Load this skill ONLY for tenant-wide aggregated views \u2014 not for listing flows in a single environment or debugging a specific run (use power-automate-mcp or power-automate-debug for those). Not the same as the server\u0027s \u0060monitor-flow\u0060 tool bundle (\u0060tool_search query: \u0022skill:monitor-flow\u0022\u0060) \u2014 that bundle is for runtime control of a single flow (start/stop/trigger/ cancel/resubmit); this skill is for tenant-wide health analytics over the cached store. Load when asked to: monitor tenant health, get aggregated failure rates over a time window, review tenant-wide error trends, find inactive makers across the tenant, inventory all Power Apps in the tenant, compute governance scores, generate a compliance report, or run a tenant-wide health overview. Requires a FlowStudio for Teams or MCP Pro\u002B subscription \u2014 see https://mcp.flowstudio.app"
     },
     {
       "filename": "fluentui-blazor/SKILL.md",
@@ -2548,6 +2567,11 @@
       "filename": "github-issues/SKILL.md",
       "name": "github-issues",
       "description": "Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existing issues, add labels/assignees/milestones, set issue fields (dates, priority, custom fields), set issue types, manage issue workflows, link issues, add dependencies, or track blocked-by/blocking relationships. Triggers on requests like \u0022create an issue\u0022, \u0022file a bug\u0022, \u0022request a feature\u0022, \u0022update issue X\u0022, \u0022set the priority\u0022, \u0022set the start date\u0022, \u0022link issues\u0022, \u0022add dependency\u0022, \u0022blocked by\u0022, \u0022blocking\u0022, or any GitHub issue management task."
+    },
+    {
+      "filename": "github-release/SKILL.md",
+      "name": "github-release",
+      "description": "Guides IA through releasing a new version of a GitHub library end-to-end.  Handles SemVer versioning and Keep a Changelog formatting automatically.\n"
     },
     {
       "filename": "go-mcp-server-generator/SKILL.md",
@@ -2979,6 +3003,11 @@
       "filename": "powerbi-modeling/SKILL.md",
       "name": "powerbi-modeling",
       "description": "Power BI semantic modeling assistant for building optimized data models. Use when working with Power BI semantic models, creating measures, designing star schemas, configuring relationships, implementing RLS, or optimizing model performance. Triggers on queries about DAX calculations, table relationships, dimension/fact table design, naming conventions, model documentation, cardinality, cross-filter direction, calculation groups, and data model best practices. Always connects to the active model first using power-bi-modeling MCP tools to understand the data structure before providing guidance."
+    },
+    {
+      "filename": "pr-dashboard/SKILL.md",
+      "name": "pr-dashboard",
+      "description": "Open a GitHub PR dashboard in the browser. Use when the user asks to see their pull requests, open the PR dashboard, show PRs for a date range, or check PR status. Trigger phrases include \u0022show my PRs\u0022, \u0022open PR dashboard\u0022, \u0022pull request dashboard\u0022."
     },
     {
       "filename": "prd/SKILL.md",
