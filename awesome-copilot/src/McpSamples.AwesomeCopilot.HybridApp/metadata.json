@@ -2012,7 +2012,7 @@
     {
       "filename": "anti-ui-slop/SKILL.md",
       "name": "anti-ui-slop",
-      "description": "Stop Codex, GitHub Copilot, Claude Code, and Cursor from shipping generic UI. Use UIZZE\u2019s public catalogue of 800,000\u002B real web and iOS screens to extract product-specific design decisions and enforce a hard finish gate for web and iOS interfaces."
+      "description": "Stop coding agents from shipping generic UI. Use UIZZE\u0027s 800,000\u002B real web and iOS screens to build product-specific interfaces, define a design contract, cover required states, and run a hard finish gate. Use when designing, implementing, redesigning, critiquing, or pre-ship reviewing a web or iOS interface in Codex, Claude Code, Cursor, Copilot, or another coding agent. Trigger with \u0022anti-ui-slop\u0022, \u0022stop UI slop\u0022, \u0022ground this UI in real screens\u0022, or \u0022run the UI finish gate\u0022."
     },
     {
       "filename": "appinsights-instrumentation/SKILL.md",
