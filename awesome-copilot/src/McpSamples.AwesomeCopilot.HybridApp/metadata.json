@@ -416,19 +416,19 @@
       "filename": "gem-browser-tester.agent.md",
       "description": "E2E browser testing, UI/UX validation, visual regression.",
       "name": "gem-browser-tester",
-      "argument-hint": "Enter execution_id, task_id, optional plan_id, task_definition, and role-scoped config_snapshot."
+      "argument-hint": "Enter plan_id, task_id, task_definition, and role-scoped config_snapshot."
     },
     {
       "filename": "gem-code-simplifier.agent.md",
       "description": "Refactoring specialist: removes dead code, reduces complexity, consolidates duplicates.",
       "name": "gem-code-simplifier",
-      "argument-hint": "Enter execution_id, task_id, optional plan_id, task_definition, and role-scoped config_snapshot."
+      "argument-hint": "Enter plan_id, task_id, task_definition, and role-scoped config_snapshot."
     },
     {
       "filename": "gem-debugger.agent.md",
       "description": "Root-cause analysis, stack trace diagnosis, regression bisection, error reproduction.",
       "name": "gem-debugger",
-      "argument-hint": "Enter execution_id, task_id, optional plan_id, task_definition, and role-scoped config_snapshot."
+      "argument-hint": "Enter plan_id, task_id, task_definition, and role-scoped config_snapshot."
     },
     {
       "filename": "gem-designer.agent.md",
@@ -440,25 +440,25 @@
       "filename": "gem-devops.agent.md",
       "description": "Infrastructure deployment, CI/CD pipelines, container management.",
       "name": "gem-devops",
-      "argument-hint": "Enter execution_id, task_id, optional plan_id, task_definition, and role-scoped config_snapshot."
+      "argument-hint": "Enter plan_id, task_id, task_definition, and role-scoped config_snapshot."
     },
     {
       "filename": "gem-documentation-writer.agent.md",
       "description": "Technical documentation, README files, API docs, diagrams, walkthroughs.",
       "name": "gem-documentation-writer",
-      "argument-hint": "Enter execution_id, task_id, optional plan_id, task_definition, and role-scoped config_snapshot."
+      "argument-hint": "Enter plan_id, task_id, task_definition, and role-scoped config_snapshot."
     },
     {
       "filename": "gem-implementer.agent.md",
       "description": "TDD code implementation: features, bugs, refactoring. Never reviews own work.",
       "name": "gem-implementer",
-      "argument-hint": "Enter execution_id, task_id, optional plan_id, task_definition, and role-scoped config_snapshot."
+      "argument-hint": "Enter plan_id, task_id, task_definition, and role-scoped config_snapshot."
     },
     {
       "filename": "gem-mobile-tester.agent.md",
       "description": "Mobile E2E testing: Detox, Maestro, iOS/Android simulators.",
       "name": "gem-mobile-tester",
-      "argument-hint": "Enter execution_id, task_id, optional plan_id, task_definition, and role-scoped config_snapshot."
+      "argument-hint": "Enter plan_id, task_id, task_definition, and role-scoped config_snapshot."
     },
     {
       "filename": "gem-orchestrator.agent.md",
@@ -468,27 +468,27 @@
     },
     {
       "filename": "gem-planner.agent.md",
-      "description": "Lean DAG plans with explicit dependencies and execution waves.",
+      "description": "Create lean, decision-complete wave plans with clear task ownership, outputs, and validation.",
       "name": "gem-planner",
-      "argument-hint": "Enter plan_id, objective, acceptance_criteria, provisional_complexity, risk_signals, and handoff."
+      "argument-hint": "Enter plan_id, objective, acceptance_criteria, provisional_complexity, risk_signals."
     },
     {
       "filename": "gem-researcher.agent.md",
-      "description": "Codebase exploration: patterns, dependencies, architecture discovery. Supports multiple exploration modes for cost-controlled research.",
+      "description": "Codebase exploration: patterns, relationships, architecture discovery. Supports multiple exploration modes for cost-controlled research.",
       "name": "gem-researcher",
-      "argument-hint": "Enter execution_id, task_id, optional plan_id, task_definition, and role-scoped config_snapshot."
+      "argument-hint": "Enter plan_id, task_id, task_definition, and role-scoped config_snapshot."
     },
     {
       "filename": "gem-reviewer.agent.md",
       "description": "Independent standard, high, or critic review of plans, tasks, code, decisions, docs, configuration, and integrations.",
       "name": "gem-reviewer",
-      "argument-hint": "Enter review_mode, review_target, review_scope, handoff, role-scoped config_snapshot, and optional identifiers."
+      "argument-hint": "Enter plan_id, review_mode, review_target, review_scope, handoff, and role-scoped config_snapshot."
     },
     {
       "filename": "gem-skill-creator.agent.md",
       "description": "Creates portable Agent Skills from verified reusable patterns. Use when packaging a successful workflow as a skills.sh-compatible SKILL.md.",
       "name": "gem-skill-creator",
-      "argument-hint": "Enter execution_id, task_id, optional plan_id, task_definition, and role-scoped config_snapshot."
+      "argument-hint": "Enter plan_id, task_id, task_definition, and role-scoped config_snapshot."
     },
     {
       "filename": "gilfoyle.agent.md",
@@ -2814,11 +2814,6 @@
       "filename": "gdpr-compliant/SKILL.md",
       "name": "gdpr-compliant",
       "description": "Apply GDPR-compliant engineering practices across your codebase. Use this skill whenever you are designing APIs, writing data models, building authentication flows, implementing logging, handling user data, writing retention/deletion jobs, designing cloud infrastructure, or reviewing pull requests for privacy compliance. Trigger this skill for any task involving personal data, user accounts, cookies, analytics, emails, audit logs, encryption, pseudonymization, anonymization, data exports, breach response, CI/CD pipelines that process real data, or any question framed as \u0022is this GDPR-compliant?\u0022. Inspired by CNIL developer guidance and GDPR Articles 5, 25, 32, 33, 35."
-    },
-    {
-      "filename": "gem-design-md-guidelines/SKILL.md",
-      "name": "gem-design-md-guidelines",
-      "description": "Create or review accessible web, desktop, iOS, Android, and cross-platform UI/UX. Use for layouts, themes, components, design systems, DESIGN.md tokens, responsive behavior, dark mode, motion, and WCAG validation."
     },
     {
       "filename": "gem-devops-guidelines/SKILL.md",
