@@ -3364,6 +3364,11 @@
       "description": "Generate a Playwright test based on a scenario using Playwright MCP"
     },
     {
+      "filename": "poka-yoke/SKILL.md",
+      "name": "poka-yoke",
+      "description": "Mistake-proof code so misuse cannot be expressed, rather than warning against it. Use when designing an interface, schema, or state machine and the user wants it hard to get wrong (\u0022make invalid states unrepresentable\u0022, \u0022so callers cannot screw it up\u0022, \u0022type-safe API\u0022, \u0022pit of success\u0022); when auditing existing code for footguns (\u0022what could bite us here\u0022, \u0022what is easy to misuse\u0022, \u0022poka-yoke this repo\u0022, \u0022review this diff for ways to get it wrong\u0022); or when a bug has recurred and the fix must close the class rather than the case (\u0022make sure this never happens again\u0022, \u0022this is the third time\u0022). Especially for money, auth, permissions, deletion, migrations, and pipelines where failure is silent. Classifies every finding by what happens when the mistake occurs and how the device notices, which is what keeps it from collapsing into generic code review."
+    },
+    {
       "filename": "postgresql-code-review/SKILL.md",
       "name": "postgresql-code-review",
       "description": "PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, function optimization, and PostgreSQL-exclusive security features like Row Level Security (RLS)."
@@ -3864,6 +3869,11 @@
       "filename": "transloadit-media-processing/SKILL.md",
       "name": "transloadit-media-processing",
       "description": "Process media files (video, audio, images, documents) using Transloadit. Use when asked to encode video to HLS/MP4, generate thumbnails, resize or watermark images, extract audio, concatenate clips, add subtitles, OCR documents, or run any media processing pipeline. Covers 86\u002B processing robots for file transformation at scale."
+    },
+    {
+      "filename": "tugboat/SKILL.md",
+      "name": "tugboat",
+      "description": "Anxiety-aware, evidence-driven collaboration for stalled or high-stakes work when a user says uncertainty, repeated setbacks, or lack of visible progress is causing significant anxiety or distress. Use immediately when explicitly invoked; when this fit is only inferred from the user\u0027s own account, ask permission before applying it. Preserve the user\u0027s ideal and turn grounded perspective-taking into persistent, bounded problem solving. Do not use to diagnose, provide therapy, manufacture certainty, or lower goals for reassurance."
     },
     {
       "filename": "typescript-mcp-server-generator/SKILL.md",
