@@ -3760,6 +3760,11 @@
       "description": "Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow). Use when asked to build or troubleshoot semantic views/semantic layer definitions with CREATE/ALTER SEMANTIC VIEW, to validate semantic-view DDL against Snowflake via CLI, or to guide Snowflake CLI installation and connection setup."
     },
     {
+      "filename": "speak-summary/SKILL.md",
+      "name": "speak-summary",
+      "description": "Convert text, markdown, or a summary produced by another skill into a listenable MP3 using local CPU-only neural text-to-speech. Rewrites written prose for the ear before synthesising. Use when the user asks to \u0022read this out\u0022, \u0022turn this into audio\u0022, \u0022make an MP3\u0022, \u0022I want to listen to this\u0022, \u0022podcast version\u0022, or wants a spoken digest for a commute or breakfast."
+    },
+    {
       "filename": "sponsor-finder/SKILL.md",
       "name": "sponsor-finder",
       "description": "Find which of a GitHub repository\u0027s dependencies are sponsorable via GitHub Sponsors. Uses deps.dev API for dependency resolution across npm, PyPI, Cargo, Go, RubyGems, Maven, and NuGet. Checks npm funding metadata, FUNDING.yml files, and web search. Verifies every link. Shows direct and transitive dependencies with OSSF Scorecard health data. Invoke with /sponsor followed by a GitHub owner/repo (e.g. \u0022/sponsor expressjs/express\u0022)."
