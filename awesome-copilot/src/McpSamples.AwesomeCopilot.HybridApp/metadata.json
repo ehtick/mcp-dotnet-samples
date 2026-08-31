@@ -2884,7 +2884,7 @@
     {
       "filename": "github-issues/SKILL.md",
       "name": "github-issues",
-      "description": "Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existing issues, add labels/assignees/milestones, set issue fields (dates, priority, custom fields), set issue types, manage issue workflows, link issues, add dependencies, or track blocked-by/blocking relationships. Triggers on requests like \u0022create an issue\u0022, \u0022file a bug\u0022, \u0022request a feature\u0022, \u0022update issue X\u0022, \u0022set the priority\u0022, \u0022set the start date\u0022, \u0022link issues\u0022, \u0022add dependency\u0022, \u0022blocked by\u0022, \u0022blocking\u0022, or any GitHub issue management task."
+      "description": "Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existing issues, add labels/assignees/milestones, manage repository labels, set issue fields (dates, priority, custom fields), set issue types, manage issue workflows, link issues, add dependencies, or track blocked-by/blocking relationships. Triggers on requests like \u0022create an issue\u0022, \u0022file a bug\u0022, \u0022request a feature\u0022, \u0022update issue X\u0022, \u0022set the priority\u0022, \u0022set the start date\u0022, \u0022create a label\u0022, \u0022rename a label\u0022, \u0022list repo labels\u0022, \u0022link issues\u0022, \u0022add dependency\u0022, \u0022blocked by\u0022, \u0022blocking\u0022, or any GitHub issue management task."
     },
     {
       "filename": "github-release/SKILL.md",
