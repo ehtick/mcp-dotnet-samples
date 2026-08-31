@@ -883,6 +883,11 @@
       "name": "Repo Architect Agent"
     },
     {
+      "filename": "research-harness-engineer.agent.md",
+      "description": "Research harness engineer for experiment campaigns: builds evaluation harnesses that are hard to fool, then keeps every reported number honest - null models first, calibration/held-out separation, baseline reproduction before improvement claims, paired error bars, and guards verified by deliberate breakage.",
+      "name": "Research Harness Engineer"
+    },
+    {
       "filename": "research-technical-spike.agent.md",
       "description": "Systematically research and validate technical spike documents through exhaustive investigation and controlled experimentation.",
       "name": "Technical spike research mode"
