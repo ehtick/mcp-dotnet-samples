@@ -1431,6 +1431,10 @@
       "description": "Authoring recommendations for creating YAML based image definition files for use with Microsoft Dev Box Team Customizations"
     },
     {
+      "filename": "devcontainers.instructions.md",
+      "description": "Twelve sourced rules for reviewing and authoring devcontainer.json, Dev Container Features, and Codespaces lifecycle configuration. Every rule cites the Dev Container specification, the reference CLI source, or official vendor documentation, states the concrete fix, and needs only file reading rather than a command to run."
+    },
+    {
       "filename": "devops-core-principles.instructions.md",
       "description": "Foundational instructions covering core DevOps principles, culture (CALMS), and key metrics (DORA) to guide GitHub Copilot in understanding and promoting effective software delivery."
     },
